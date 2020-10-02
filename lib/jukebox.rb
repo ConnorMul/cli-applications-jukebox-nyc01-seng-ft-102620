@@ -52,7 +52,6 @@ def run
       help
     else "exit"
       exit_jukebox
-    break 
   end 
 end 
   
