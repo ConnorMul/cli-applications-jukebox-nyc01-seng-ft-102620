@@ -30,7 +30,7 @@ def play(songs)
     if user_song.to_i >= 1 && user_song.to_i <= songs.length 
       puts "Playing #{songs[user_song.to_i-1]}"
     elsif songs.include?(user_song)
-      puts "Playing #{songs[user_song]}"
+      puts "Playing #{songs.find { |song| song == user_song }"
     else 
       puts "Invalid input, please try again"
     end 
