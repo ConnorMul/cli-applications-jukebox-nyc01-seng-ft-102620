@@ -50,7 +50,7 @@ def run
       play(songs)
     when "help"
       help
-    when "exit"
+    else "exit"
       exit_jukebox
     break 
   end 
