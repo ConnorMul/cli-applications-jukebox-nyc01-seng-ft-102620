@@ -55,7 +55,6 @@ def run
       break
     else 
       "Invalid entry"
-      
   end 
 end 
   
