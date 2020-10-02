@@ -27,11 +27,13 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_song = gets.strip
+  i = 0 
   songs.each do |song|
-    if song == user_song.to_s
-      "Playing #{song}"
-    else 
-      "Invalid input, please try again"
+    if song[i] == user_song.to_s 
+      puts "Playing #{song}"
+    else
+      puts "Invalid input, please try again"
+      i += 1
     end 
   end 
 end 
