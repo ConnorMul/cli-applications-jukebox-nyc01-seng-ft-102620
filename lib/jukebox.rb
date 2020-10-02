@@ -50,8 +50,12 @@ def run
       play(songs)
     when "help"
       help
-    else "exit"
+    when "exit"
       exit_jukebox
+      break
+    else 
+      "Invalid "
+      
   end 
 end 
   
