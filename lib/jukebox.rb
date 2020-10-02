@@ -41,6 +41,7 @@ def exit_jukebox
 end 
 
 def run 
+  while true do
   puts "Please enter a command:"
   input = gets.strip
   case input
@@ -56,5 +57,6 @@ def run
     else 
       "Invalid entry"
    end 
+ end 
 end 
   
