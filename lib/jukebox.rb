@@ -27,9 +27,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_song = gets.strip
-  i = 0 
-  songs.each do |song|
-    if 
+    if user_song.to_i >= 1 && user_song.to_i <= songs.length
     end 
   end 
 end 
