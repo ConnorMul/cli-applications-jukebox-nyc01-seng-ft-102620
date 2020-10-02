@@ -27,7 +27,8 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_song = gets.strip
-    if user_song.to_i >= 1 && user_song.to_i <= songs.length
+    if user_song.to_i >= 1 && user_song.to_i <= songs.length 
+      puts "Playing #{song"
     end 
   end 
 end 
