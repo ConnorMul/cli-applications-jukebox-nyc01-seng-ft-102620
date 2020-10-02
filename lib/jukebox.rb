@@ -56,6 +56,5 @@ def run
     else 
       "Invalid entry"
    end 
- end 
 end 
   
