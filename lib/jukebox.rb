@@ -54,7 +54,7 @@ def run
       exit_jukebox
       break
     else 
-      "Invalid "
+      "Invalid entry"
       
   end 
 end 
